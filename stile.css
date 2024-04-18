@@ -10,7 +10,7 @@
 
 body{
     font-family: 'poppins', sans-serif;
-    background-color: #000000;
+    background-color: #2b2020;
 
 }
 img{
@@ -21,7 +21,7 @@ img{
 .container{
     flex-wrap: wrap;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 1px auto;
 }
 
 .Header{
@@ -32,7 +32,7 @@ img{
     display: flex;
     align-items: center;
     min-height: 80vh;
-    padding: 70px 0; 
+    padding: 80px 0; 
 }
 .menu{
     position: absolute;
@@ -45,7 +45,7 @@ img{
 }
 .logo{
     font-family:Arial, Helvetica, sans-serif;
-    color: #15006b;
+    color: #160443;
     font-size: 25px;
     font-weight: 900;
     text-transform: uppercase;
@@ -59,13 +59,13 @@ img{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(248, 233, 195);
+    color: rgb(255, 228, 196);
     font-weight: 600;
-    display: block;
+    display: flex;
     flex-wrap: wrap;
 }
 .menu .navbar ul li a:hover{
-    color: rgb(36, 74, 129);
+    color: rgb(127, 81, 228);
 }
 
 #menu{
@@ -87,21 +87,18 @@ img{
 }
 .header-txt h1{
     font-size: 50px;
-    color: rgb(22, 1, 1);
-	-webkit-text-stroke: 1px #07afb7;
-	text-shadow: 0px 4px 4px rgb(165, 254, 0);
-    background-color: #01070ceb;
+	-webkit-text-stroke: 1px #e99d11;
+	text-shadow: 0px 4px 4px rgb(72, 21, 138);
 }
 .header-txt span{
-    color: rgb(63, 4, 15);
+    color: rgb(204, 28, 61);
 }
 .header-txt p{
     font-size: 20px;
     color: #0b1153;
     margin-bottom: 100px;
-    -webkit-text-stroke: 1px #4cabeb;
+    -webkit-text-stroke: 1px #20d1f5;
     text-shadow: 2px 4px 3px rgb(0, 45, 57);
-    background-color: #000203c8;
 } 
 .butos {
     background-color: #7310d6;
@@ -115,12 +112,12 @@ img{
     font-size: 17px;
     color: #00cbf8;
     -webkit-text-stroke:1px #03c4ff;
-    text-shadow: 2px 2px 6px hsl(61, 86%, 53%);
+    text-shadow: 2px 2px 6px hsl(66, 100%, 52%);
     border-color: #0679cc;
     background-color: #01060ad9;
 }
 .btn-1:hover {
-   background-color: rgb(111, 0, 255);
+    background-color: rgb(111, 0, 255);
 }
 .popular{
     padding : 100px 0;
@@ -149,7 +146,7 @@ h2 {
     gap: 50px;
 }
 .product-1{
-    background-color: #00000023;
+    background-color: #725555ee;
     margin-right: 1px;
 }
 .product-txt{
@@ -157,10 +154,10 @@ h2 {
 }
 h3{
     font-size: 20px;
-    color: #0c89cc;
+    color: #db6b0e;
     margin-bottom: 20px;
     gap: 50px;
-    text-shadow: 1px 1px 1px rgb(120, 151, 236);
+    text-shadow: 1px 1px 1px rgb(90, 33, 6);
 }
 .price {
     display: flex;
@@ -169,18 +166,19 @@ h3{
 }
 .price p{
     font-size: 17px;
-    color: rgb(50, 56, 173);
+    color: rgb(248, 248, 248);
+    text-shadow: #066bb4;
 }
 .btn-2{
     padding: 5px 25px;
-    background-color: #040107;
+    background-color: #571c92;
     margin-right: 0px;
 }
 .contac {
 padding: 150px 300px;
 }
 .contact-content{
-    background-color: #281405;
+    background-color: #af6126;
     text-align: center;
     padding: 50px;
     border-radius: 50px;
@@ -228,5 +226,5 @@ input{
     margin-right: 20px;
 }
 .link ul li > a:hover {
-    color:#6405ea;
+    color:#f8f6fa;
 }
