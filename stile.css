@@ -10,7 +10,7 @@
 
 body{
     font-family: 'poppins', sans-serif;
-    background-color: #050000;
+    background-color: #000000;
 
 }
 img{
@@ -45,7 +45,7 @@ img{
 }
 .logo{
     font-family:Arial, Helvetica, sans-serif;
-    color: #160443;
+    color: #15006b;
     font-size: 25px;
     font-weight: 900;
     text-transform: uppercase;
@@ -59,13 +59,13 @@ img{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(253, 239, 209);
+    color: rgb(248, 233, 195);
     font-weight: 600;
     display: block;
     flex-wrap: wrap;
 }
 .menu .navbar ul li a:hover{
-    color: rgb(127, 81, 228);
+    color: rgb(36, 74, 129);
 }
 
 #menu{
@@ -87,19 +87,19 @@ img{
 }
 .header-txt h1{
     font-size: 50px;
-    color: rgb(18, 1, 1);
+    color: rgb(22, 1, 1);
 	-webkit-text-stroke: 1px #07afb7;
 	text-shadow: 0px 4px 4px rgb(165, 254, 0);
-    background-color: #000b13eb;
+    background-color: #01070ceb;
 }
 .header-txt span{
-    color: rgb(41, 7, 13);
+    color: rgb(63, 4, 15);
 }
 .header-txt p{
     font-size: 20px;
     color: #0b1153;
     margin-bottom: 100px;
-    -webkit-text-stroke: 1px #20d1f5;
+    -webkit-text-stroke: 1px #4cabeb;
     text-shadow: 2px 4px 3px rgb(0, 45, 57);
     background-color: #000203c8;
 } 
@@ -115,7 +115,7 @@ img{
     font-size: 17px;
     color: #00cbf8;
     -webkit-text-stroke:1px #03c4ff;
-    text-shadow: 2px 2px 6px hsl(66, 100%, 52%);
+    text-shadow: 2px 2px 6px hsl(61, 86%, 53%);
     border-color: #0679cc;
     background-color: #01060ad9;
 }
