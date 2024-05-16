@@ -25,7 +25,7 @@ img{
 }
 
 .Header{
-    background-image: url(Imagenes/FONDOPAGINA.PNG);
+    background-image: url(fondo/FONDOPAGINA.PNG);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
