@@ -7,7 +7,11 @@
     text-decoration: none;
     list-style: none;
 }
+.icon-cart{
+    width: 40px;
+    height: 40px;
 
+}
 body{
     font-family: 'poppins', sans-serif;
     background-color: #2b2020;
@@ -37,12 +41,13 @@ img{
 }
 .menu{
     position: absolute;
+    top: 40px; left: 40px;;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .logo{
     font-family:Arial, Helvetica, sans-serif;
@@ -59,7 +64,7 @@ img{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(255, 228, 196);
+    color: rgb(219, 127, 14);
     font-weight: 600;
     display: flex;
     flex-wrap: wrap;
@@ -153,21 +158,7 @@ h2 {
     gap: 50px;
 
 }
-.product-content2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-
-}
-
-
-
-
 .product-content:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-.product-content2:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -257,7 +248,10 @@ input{
     color:#f8f6fa;
 }
 
-.carritoo{
-    position: relative;
-   left: 85%;
+.container-icon {
+    display: flex;
+    width: 60px;
+    position: initial;
+    justify-content: space-between;
+
 }
